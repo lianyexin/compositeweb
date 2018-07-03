@@ -1,2 +1,0 @@
-# springweb
-common web appliaction
