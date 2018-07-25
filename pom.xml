@@ -12,6 +12,7 @@
         <module>webapp</module>
         <module>appserver</module>
         <module>dataservice</module>
+        <module>configserver</module>
     </modules>
 
     <parent>
