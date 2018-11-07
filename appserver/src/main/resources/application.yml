@@ -2,6 +2,9 @@ server:
   port: 8081
 eureka:
   instance:
+    prefer-ip-address: true
+    status-page-url-path: /actuator/info #eureka注册中心的url link
+    health-check-url-path: /actuator/health #健康检查的url
     hostname: localhost
   server:
     enableSelfPreservation: false
