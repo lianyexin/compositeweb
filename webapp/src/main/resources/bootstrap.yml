@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: webapp
+  cloud:
+      config:
+        lable: master
+        profile: dev
+        uri: http://localhost:8090
+server:
+  port: 8082
+
