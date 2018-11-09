@@ -12,7 +12,7 @@ import static java.lang.System.out;
 @RestController
 @RequestMapping(value = "/index")
 @ConfigurationProperties
-public class index {
+public class IndexController {
     @Value("${spring.rabbitmq.host}")
     private String ip;
 
